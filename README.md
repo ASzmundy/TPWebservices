@@ -30,13 +30,10 @@ Contient le code source du webservice de mise à jour de la base de données
 
  1. Lancer docker et lancer la commande compose sur le fichier dockercompose.yml du dossier docker
  2. Se connecter sur la base de données postgresql avec les identifiants ( login : postgres mdp: admin )
- 3. Exécuter les scripts suivants du dossier SQL :
-	3.1 CREATE Database
-	3.2 CREATE Table
+ 3. Exécuter les scripts suivants du dossier SQL : CREATE Database puis CREATE Table
  4. Lancer Mirth Connect et créer un channel avec pour dossier source **ws_newHL7/Output**
  5. Dans Mirth Connect mettre le script SQL Channel mirthconnect.sql dans le channel et appliquer le transformer javascript contenu dans Transformer mirthconnect.js
  6. Lancer les webs services
  7. Lancer le GUI
- 
 
  
